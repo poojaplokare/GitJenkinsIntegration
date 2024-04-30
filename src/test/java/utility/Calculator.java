@@ -30,9 +30,11 @@ public class Calculator {
                 result = num1 - num2;
                 break;
             case '*':
+            	System.out.println("Multiplication");
                 result = num1 * num2;
                 break;
             case '/':
+            	System.out.println("Division");
                 if (num2 != 0) {
                     result = num1 / num2;
                 } else {
